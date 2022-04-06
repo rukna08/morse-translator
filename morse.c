@@ -267,7 +267,7 @@ char getCharFromMorseCode(char* str) {
 }
 
 int main() {
-	char str[] = "mahana is noob";
+	char str[] = "This is a Morse Translator";
 	size_t size = sizeof(str) - 1; // - 1 because of NULL terminator -> '\0'.
 
 	printMorseCodeFromString(str, size);
