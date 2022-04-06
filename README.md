@@ -1,7 +1,7 @@
 # Morse-Translator
 ▪️Morse Code to English and Vice-Versa
 
-![image](https://user-images.githubusercontent.com/85444889/161960742-1010f9e4-4fd5-4205-9af0-7401c67bbf9a.png)
+![image](https://user-images.githubusercontent.com/85444889/161963330-76ab9114-9588-4924-83a2-f5b912b910c7.png)
 
 🧑‍💻**Handcrafted by:**
 🧑‍💻**Nikhil Mahana :** **https://bit.ly/NikhilMahana**
