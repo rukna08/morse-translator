@@ -265,12 +265,6 @@ char getCharFromMorseCode(char* str) {
 	else if (strcmp(str, "..--..") == 0) return '?';
 	else if (strcmp(str, "/") == 0) return ' ';
 }
-char* getStringFromMorseCode(char* str, size_t size) {
-	
-	for (int i = 0; str[i] != '\0'; i++) { // 32 is SPACE
-		
-	}
-}
 
 int main() {
 	char str[] = "mahana is noob";
