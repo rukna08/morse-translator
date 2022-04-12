@@ -267,10 +267,10 @@ char getCharFromMorseCode(char* str) {
 }
 
 int main() {
-	char str[] = "hello";
+	char str[] = "h";
 	size_t size = sizeof(str) - 1; // - 1 because of NULL terminator -> '\0'.
 
-	printMorseCodeFromString(str, size);
+    printf("%c", getCharFromMorseCode);
 
 	return 0;
 }
