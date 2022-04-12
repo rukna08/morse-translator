@@ -1,8 +1,3 @@
-# Morse-Translator
-▪️Morse Code to English and Vice-Versa
+▪ Morse code to english (and vice-versa <- work in progress)
 
-![image](https://user-images.githubusercontent.com/85444889/161963330-76ab9114-9588-4924-83a2-f5b912b910c7.png)
-
-🧑‍💻**Handcrafted by:**
-🧑‍💻**Nikhil Mahana :** **https://bit.ly/NikhilMahana**
-🧑‍💻**Ankur Banerjee :** **https://www.linkedin.com/in/ankurbanerjee2003/** 
+![image](https://cdn.shopify.com/s/files/1/2223/4507/files/morse-chart_grande.png?v=1501447409)
