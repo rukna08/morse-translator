@@ -267,13 +267,15 @@ char getCharFromMorseCode(char* str) {
 	else if (strcmp(str, "/") == 0) return ' ';
 }
 char* getWordFromMorseCode(char* str, size_t size) {
-    size_t ssize = 2;
-    char* s = malloc(ssize);
+    size_t ssize = 1;
+    char* subString = malloc(ssize);
     for(int i = 0; str[i] != 32; i++) {
-        s[i] = str[i];
+        subString[i] = str[i];
         ssize++;
-        s = realloc(s, ssize);
+        subString = realloc(subString, ssize);
     }
+
+    subString[ssize-1] = '\0';
 }
 
 int main() {
