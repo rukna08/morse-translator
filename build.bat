@@ -1,2 +1,3 @@
-gcc -o application.exe *.c
-application
+@echo off
+
+cl -Zi morse.c

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// English to Morse Code.
+// eng to morse :O
 char* getMorseCodeFromChar(char c) {
 	switch (c) {
 		case 'A':
@@ -222,7 +222,8 @@ void printMorseCodeFromString(char* str, size_t size) {
 
 	printf("\n");
 }
-// Morse Code to English.
+
+// morse to eng 2x :O
 char getCharFromMorseCode(char* str) {
 	if(strcmp(str, ".-") == 0) return 'A';
 	else if (strcmp(str, "-...") == 0) return 'B';
@@ -265,12 +266,20 @@ char getCharFromMorseCode(char* str) {
 	else if (strcmp(str, "..--..") == 0) return '?';
 	else if (strcmp(str, "/") == 0) return ' ';
 }
+char* getWordFromMorseCode(char* str, size_t size) {
+    size_t ssize = 2;
+    char* s = malloc(ssize);
+    for(int i = 0; str[i] != 32; i++) {
+        s[i] = str[i];
+        ssize++;
+        s = realloc(s, ssize);
+    }
+}
 
 int main() {
-	char str[] = "h";
+	char str[] = "hello world";
 	size_t size = sizeof(str) - 1; // - 1 because of NULL terminator -> '\0'.
-
-    printf("%c", getCharFromMorseCode);
-
+    getWordFromMorseCode(str, size);
+    //printMorseCodeFromString(str, size);
 	return 0;
 }
